@@ -7,7 +7,7 @@ private:
     Node<T>* next;
 
 public:
-    Node(T val);
+    Node(T value);
     T getValue() const;
     Node<T>* getNext() const;
     void setNext(Node<T>* next);
