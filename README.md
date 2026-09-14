@@ -111,14 +111,3 @@ mkdir build && cd build
 cmake ..
 make
 ```
-
-# Qué hace `main.cpp`
-
-El programa de ejemplo:
-
-1. Crea una `Stack<int>` vacía y muestra que está vacía.
-2. Apila los números del `0` al `5` con `push`, mostrando el resultado de
-   cada inserción.
-3. Muestra que la pila ya no está vacía.
-4. Va desapilando con `pop()` hasta vaciarla, mostrando cada elemento
-   eliminado.
