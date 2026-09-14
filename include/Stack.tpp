@@ -21,7 +21,7 @@ bool Stack<T>::push(T value) {
 template <typename T>
 T Stack<T>::pop() {
     if (isEmpty()) {
-        return T();
+        return T{};
     }
     
     Node<T>* temp = top;
@@ -35,7 +35,7 @@ T Stack<T>::pop() {
 template <typename T>
 T Stack<T>::peek() const {
     if (isEmpty()) {
-        return T();
+        return T{};
     }
     return top->getValue();
 }
