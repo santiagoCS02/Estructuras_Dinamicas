@@ -4,7 +4,7 @@
 
 Este es un ejercicio de implementación de la estructura de datos **Stack**
 (Pila) en C++ usando una lista enlazada simple y templates genéricos (`T`),
-para poder apilar cualquier tipo de dato.
+para poder apilar cualquier tipo de dato, usando el paradigma de la programación orientada a objetos.
 
 ```
 Estructuras_Dinamicas/
